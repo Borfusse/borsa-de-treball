@@ -12,7 +12,7 @@
 
 <body>
   <div  class="row justify-content-center " >
-    <div class="col col-md-6" style="float:left">
+    <div class="col col-md-8 " style="float:left">
     <header id="cabecera">
       <h1 id="titol">BOLSA DE TREBALL IES JAUME II </h1>
     </header>
@@ -21,7 +21,7 @@
 
   <div  class="row justify-content-center ">
 
-      <div class="col col-md-6" style="float:left">
+      <div class="col col-md-8" style="float:left">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <a class="navbar-brand" href="#"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02"
@@ -58,8 +58,8 @@
         <fieldset>
 
 
-          <div class="row justify-content-center">
-          <div class="form-group col col-md-2" style="float:left">
+          <div class="row justify-content-center mt-2">
+          <div class="form-group col col-md-2 " style="float:left">
             <label class="col-form-label " for="inputDefault">DNI</label>
             <input type="text" class="form-control " placeholder="Default input" id="inputDefault">
           </div>
@@ -110,23 +110,32 @@
           </div>
 
           <div class="form-group col col-md-2 " style="float:left">
-            <label class="" for="exampleSelect1">Perfil</label>
-            <select class="form-control" id="exampleSelect1">
-              <option>SMX</option>
-              <option>ASIX</option>
-              <option>DAM</option>
-              <option>DAW</option>
-            </select>
-          </div>
+            <label for="exampleSelect2">Example multiple select</label>
+              
+
+                <select multiple="" class="form-control" id="exampleSelect2">
+                <option>SMX</option>
+                <option>ASIX</option>
+                <option>DAM</option>
+                <option>DAW</option>
+                </select>
+            </div>
         </div>
 
         <div class="row justify-content-center">
           <div class="form-group col col-md-6" style="float:left">
             <label class="" for="exampleTextarea">Comentaris</label>
             <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
-            <button type="submit" class="btn btn-primary ">Submit</button>
-
+             
           </div>
+        </div>      
+        <div class="row justify-content-center mb-2">
+            <div class="form-group col col-md-6 justify-content-center" >
+               
+            <button type="submit" class="btn btn-primary ">Guarda</button>
+
+          
+            </div>
         </div>
         </fieldset>
       </form>
