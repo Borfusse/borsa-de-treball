@@ -8,9 +8,19 @@
   .color-fondo{
     background-color:rgba(0, 0, 0, 0.03) !important;
    
-
-
-
 }
+
+
+
+.cabecera {
+       
+  background-image:url(../img/computer_smaller_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  /*background-attachment: fixed;*/
+  background-size: cover;
+  
+
+ }
 
 
