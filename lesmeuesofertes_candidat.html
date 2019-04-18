@@ -21,7 +21,7 @@
 
 
 	
- <div class="container-fluid">
+ <!--<div class="container-fluid">-->
 		<div class="row cabecera ">
 			<div class=" offset-xl-5 offset-lg-5 offset-md-5 offset-sm-3 offset-3 col col-sm col-md-2 col-lg-2 col-xl-2 " style="float:left">		
 
@@ -39,13 +39,13 @@
 	
 				<div class="collapse navbar-collapse" id="navbarColor02">
 					<ul class="navbar-nav mr-auto">
-						<li class="nav-item active">
-							<a class="nav-link" href=".\candidat.html"><span class="oi oi-person mr-2"></span> Controls </a>
+						<li class="nav-item ">
+							<a class="nav-link" href=".\candidat.html"><span class="oi oi-person mr-2"></span> Perfil </a>
 						</li>
 <!--	<li class="nav-item">-->
 							<!--	<a class="nav-link" href="#"> Les meues ofertes </a>-->
 						<!--	</li> -->
-						<li class="nav-item">
+						<li class="nav-item active">
 							<a class="nav-link" href="./ofertes_candidat.html">Ofertes</a>
 						</li>
 						<li class="nav-item">
@@ -63,27 +63,32 @@
 	<div class="container-fluid mt-5 ">	
 
                 <div class="row  ">
-                    <div class="offset-md-3 col-md-6 ">
+                    <div class=" offset-md-3 col-md-6 ">
                        
                         <div class="row justify-content-center my_background border border-bottom-0">
-							<ul class="pagination ">
+												<!--	<ul class="pagination ">-->
 								<!--<li class="page-item"><a class="page-link" href="#">Previous</a></li> -->
-								<li class="page-item"><a class="page-link" href=".\ofertes_candidat.html">Ofertes</a></li>
-								<li class="page-item"><a class="page-link" href=".\lesmeuesofertes_candidat.html">Les meues ofertes</a></li>
+								<!--	<li class="page-item"><a class="page-link" href=".\ofertes_candidat.html">Ofertes</a></li>-->
+								<!--	<li class="page-item"><a class="page-link" href=".\lesmeuesofertes_candidat.html">Les meues ofertes</a></li>-->
 
 								<!-- <li class="page-item"><a class="page-link" href="#">Next</a></li> -->
-							</ul> 
-                            <div class="form-check col-md-12" style="float:left"> 
-                               
-                                
+						<!--	</ul> -->
 
-                            </div>
-                            
-                            <table class="table text-center">
+						<ul class="nav justify-content-center  ">
+							<li class="nav-item">
+								<a class="nav-link active" data-toggle="tab" href=".\ofertes_candidat.html">Ofertes</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" data-toggle="tab" href=".\lesmeuesofertes_candidat.html">Les meues ofertes</a>
+							</li>
+							</ul>
+                            <div class="table-responsive col-12 col-sm-12 col-md-12" style="float:left"> 
+															<table class="table text-center">
                                 <thead>
                                   <tr>
                                     <th>Càrrec</th>
-                                    <th>Data publicació</th>
+																		<th>Data publicació</th>
+																		<th>Data límit</th>
                                     <th>Categoria Treball</th>
                                     <th>Empresa</th>
                                     <th>Ubicació</th>
@@ -95,15 +100,21 @@
 
                                     <tr class="table-active text-center">
                                         <td>Administrador</td>
-                                        <td >4-3-2019</td>
+																				<td >4-3-2019</td>
+																				<td ></td>
                                         <td>Administrador Junior</td>
                                         <td>Mercadona</td>
                                         <td>València</td>
                                         <td>ASIX</td>
-                                        <td><a href="#">Vore oferta </a></td>
+                                        <td><a href=".\oferta_treball_inscrit.html">Vore oferta </a></td>
                                       </tr>
                                     </tbody>
                                   </table>
+                                
+
+                            </div>
+                            
+                           
                                     
                             
                           
@@ -118,7 +129,7 @@
 		<div class="card-footer text-white mb-3 mt-2 text-center ">
 			<small  class="card-text  text-muted" >IES Jaume II El Just &copy; 2019 Tavernes de la Valldigna </small>
 		</div>
-	</div>	
+	<!--</div>-->	
 </body>
 
 </html>
