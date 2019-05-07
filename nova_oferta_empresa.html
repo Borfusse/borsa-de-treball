@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">  
+	<meta name="description" content="">
+
+	<meta name="keywords" content="HTML5, CSS3, JavaScript">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Borsa de Treball de l'IES Jaume II El Just</title>
+	<link rel="stylesheet" href="css\bootstrap.css">
+	<link rel="stylesheet" href=".\main\main.css">
+	<link rel="stylesheet" href="open-iconic/font/css/open-iconic-bootstrap.css" >
+
+        <link rel="icon" href="img/logotext.png">
+
+</head>
+
+<body>
+
+
+	
+<!-- <div class="container-fluid">-->
+
+		<div class="row cabecera ">
+			<div class=" offset-xl-5 offset-lg-5 offset-md-5 offset-sm-3 offset-3 col col-sm col-md-2 col-lg-2 col-xl-2 " style="float:left">		
+
+					
+				     <img src="img/logotext.png" class="img-responsive " alt="">
+			</div>
+		</div> 
+
+		<nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+				<a class="navbar-brand" href="#"></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02"
+					aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+	
+				<div class="collapse navbar-collapse" id="navbarColor02">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item ">
+							<a class="nav-link" href=".\empresa.html"><span class="oi oi-briefcase mr-2"></span> Perfil </a>
+						</li>
+						<!--	<li class="nav-item">-->
+							<!--	<a class="nav-link" href="#"> Les meues ofertes </a>-->
+						<!--	</li> -->
+						<li class="nav-item active">
+							<a class="nav-link" href="./nova_oferta_empresa.html">Ofertes</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="./bolsa.html"> <span class="oi oi-power-standby"></span></a>
+						</li>
+	
+					</ul>
+	
+				</div>
+	
+	
+			</nav>
+
+
+	<div class="container-fluid mt-5 ">	
+
+                <div class="row  ">
+                    <div class="offset-md-4 col-md-4 ">
+                       
+                        <div class="row justify-content-center my_background border border-bottom-0">
+<!--	<ul class="pagination ">-->
+								<!--<li class="page-item"><a class="page-link" href="#">Previous</a></li> -->
+							<!--	<li class="page-item"><a class="page-link" href=".\candidat.html">Dades personals</a></li>
+								<li class="page-item"><a class="page-link" href=".\candidat_perfil.html">Perfil Professional</a></li>
+								<li class="page-item"><a class="page-link" href=".\candidat_curriculum.html">Curriculum</a></li> -->
+								<!-- <li class="page-item"><a class="page-link" href="#">Next</a></li> -->
+						<!--	</ul> -->
+
+						<ul class="nav justify-content-center  ">
+							<li class="nav-item">
+							  <a class="nav-link active" data-toggle="tab" href=".\nova_oferta_empresa.html">Nova oferta </a>
+							</li>
+							<li class="nav-item">
+							  <a class="nav-link" data-toggle="tab" href=".\ofertes_empresa.html">Les meues ofertes</a>
+							</li>
+
+						  </ul>
+ 
+ 						<div class="form-group   col-md-12  " style="float:left">
+                          <label class="col-form-label custom-label-sm" for="inputDefault">Codi oferta</label>
+                          <input type="text" class="form-control custom-input-sm" placeholder="" id="inputDefault">
+                       </div>
+                       <div class="form-group  col-md-12" style="float:left"> 
+                            <label class="col-form-label input-md" for="inputDefault">Data publicació</label>
+                            <input type="date" class="form-control custom-input-sm" placeholder="" id="inputDefault">
+                        </div>
+                        
+                            <div class="form-group  col-md-12" style="float:left"> 
+                                <label class="col-form-label input-md" for="inputDefault">Data límit</label>
+                                <input type="date" class="form-control custom-input-sm" placeholder="" id="inputDefault">
+                            </div>
+                            
+                            <div class="form-group   col-md-12  " style="float:left">
+                          <label class="col-form-label custom-label-sm" for="inputDefault">Càrrec</label>
+                          <input type="text" class="form-control custom-input-sm" placeholder="" id="inputDefault">
+                       </div>
+
+                                            
+                                         <div class="form-group   col-md-12 " style="float:left">
+                                            <label class="col-form-label custom-label-sm" for="inputDefault">Tipo</label>
+                                            <form>
+                                                    <select name="tipo" class="custom-select">
+                                                      <option selected>Freelance</option>
+                                                      <option value="Freelance">Freelance</option>
+                                                      <option value="Temps complet">Temps Complet</option>
+                                                      <option value="Temps parcial">Temps Parcial</option>
+                                                      <option value="Pràctiques">Pràctiques</option>
+                                                      <option value="Temporal">Temporal</option>
+                                                      <option value="Altre">Altre</option>
+                                                    </select>
+                                                  </form>
+                                          </div>
+                                          <div class="form-group   col-md-12 " style="float:left">
+                                                <label class="col-form-label custom-label-sm" for="inputDefault">Categoria:</label>
+                                                <form>
+                                                        <select name="categoria" class="custom-select">
+                                                          <option selected>Programador Junior</option>
+                                                          <option value="Programador Junior">Programador Junior</option>
+                                                          <option value="Programador Senior">Programador Senior</option>
+                                                          <option value="Analista Programador">Analista programador</option>
+                                                          <option value="Jefe de projecte">Jefe de projecte</option>
+                                                          <option value="Tècnic Microinformàtic">Tècnic Microinformàtic</option>
+                                                          <option value="Tècnic de Sistemes">Tècnic de Sistemes</option>
+                                                          <option value="Consultor">Consultor</option>
+                                                          <option value="Responsable de Sistemes">Responsable de Sistemes</option>
+                                                          <option value="Altre">Altre</option>
+
+
+                                                        </select>
+                                                      </form>
+                                              </div>
+                                              <div class="form-group   col-md-12 " style="float:left">
+                                                    <label class="col-form-label custom-label-sm" for="inputDefault">Perfil</label>
+                                                    <form>
+                                                            <select name="Perfil" class="custom-select">
+                                                              <option selected>SMX</option>
+                                                              <option value="SMX"> SMX</option>
+                                                              <option value="ASIX">ASIX</option>
+                                                              <option value="DAM">DAM</option>
+                                                              <option value="DAW">DAW</option>
+
+                                                            </select>
+                                                          </form>
+                                                  </div>
+
+                                                  <div class="form-group   col-md-12 " style="float:left">
+                                                      <label class="col-form-label custom-label-sm" for="inputDefault">Ubicació</label>   <!-- Carrega de dades de Centre de treball-->
+                                                      <form>
+                                                              <select name="Centre de Treball" class="custom-select">
+                                                                <option selected></option>
+                                                                
+  
+                                                              </select>
+                                                            </form>
+                                                    </div>
+  
+                        <div class="form-group   col-md-12 " style="float:left">
+                          <label class="col-form-label custom-label-sm" for="inputDefault">Descripció</label>
+                          <textarea class="form-control" rows="5" id="comment"></textarea>
+                        </div>
+
+                 
+                                      <div class="form-group   col-md-12  " >        
+                         	<button type="button" class="btn btn-secondary btn-block ">Guarda</button>   
+                            
+                            </div>
+                            
+                          
+                        </div>
+                    </div>
+
+                </div> 
+                
+                
+
+		</div>
+		<div class="card-footer text-white mb-3 mt-2 text-center ">
+			<small  class="card-text  text-muted" >IES Jaume II El Just &copy; 2019 Tavernes de la Valldigna </small>
+		</div>
+	<!--</div>	-->
+</body>
+
+</html>

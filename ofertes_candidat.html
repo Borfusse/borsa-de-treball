@@ -21,7 +21,7 @@
 
 
 	
- <div class="container-fluid">
+ <!--<div class="container-fluid">-->
 		<div class="row cabecera ">
 			<div class=" offset-xl-5 offset-lg-5 offset-md-5 offset-sm-3 offset-3 col col-sm col-md-2 col-lg-2 col-xl-2 " style="float:left">		
 
@@ -39,13 +39,13 @@
 	
 				<div class="collapse navbar-collapse" id="navbarColor02">
 					<ul class="navbar-nav mr-auto">
-						<li class="nav-item active">
-							<a class="nav-link" href=".\candidat.html"><span class="oi oi-person mr-2"></span> Controls </a>
+						<li class="nav-item ">
+							<a class="nav-link" href=".\candidat.html"><span class="oi oi-person mr-2"></span> Perfil </a>
 						</li>
 <!--	<li class="nav-item">-->
 							<!--	<a class="nav-link" href="#"> Les meues ofertes </a>-->
 						<!--	</li> -->
-						<li class="nav-item">
+						<li class="nav-item active">
 							<a class="nav-link" href="./ofertes_candidat.html">Ofertes</a>
 						</li>
 						<li class="nav-item">
@@ -64,26 +64,67 @@
 
                 <div class="row  ">
                     <div class="offset-md-3 col-md-6 ">
-                       
+												<div class="row  mb-2 mt-2  ">
+														<div class="col-4 col-sm-4 col-md-4" > 
+														<form class="form ">
+							
+															
+															<select name="busqueda" class="custom-select">
+																<option selected>Càrrec</option>
+																<option value="">Data publicació</option>
+																<option value="">Data límit</option>
+																<option value="">Categoria </option>
+																<option value="">Empresa</option>
+																<option value="">Ubicació </option>
+																<option value="">Perfil </option>
+																</select>
+															</div>
+															<div class="input-group col-8 col-sm-5 col-md-8">
+																<input class="form-control py-2 border-right-0 border" type="search" value="search" id="example-search-input">
+																<span class="input-group-append">
+																	<button class="btn btn-outline-secondary border-left-0 border" type="button">
+																		 <span class="ml-3 oi oi-magnifying-glass"></span>
+																	</button>
+																	</span>
+															</div>
+							
+														</form>
+							
+													
+													</div>
                         <div class="row justify-content-center my_background border border-bottom-0">
-							<ul class="pagination ">
+						<!--	<ul class="pagination ">-->
 								<!--<li class="page-item"><a class="page-link" href="#">Previous</a></li> -->
-								<li class="page-item"><a class="page-link" href=".\ofertes_candidat.html">Ofertes</a></li>
-								<li class="page-item"><a class="page-link" href=".\lesmeuesofertes_candidat.html">Les meues ofertes</a></li>
+								<!--	<li class="page-item"><a class="page-link" href=".\ofertes_candidat.html">Ofertes</a></li>-->
+								<!--	<li class="page-item"><a class="page-link" href=".\lesmeuesofertes_candidat.html">Les meues ofertes</a></li>-->
 
 								<!-- <li class="page-item"><a class="page-link" href="#">Next</a></li> -->
-							</ul> 
-                            <div class="form-check col-md-12" style="float:left"> 
+						<!--	</ul> -->
+
+							<ul class="nav justify-content-center  ">
+								<li class="nav-item">
+									<a class="nav-link active" data-toggle="tab" href=".\ofertes_candidat.html">Ofertes</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" data-toggle="tab" href=".\lesmeuesofertes_candidat.html">Les meues ofertes</a>
+								</li>
+								</ul>
+	 
+
+
+								<div class="table-responsive col-12 col-sm-12 col-md-12" style="float:left"> 
+                           
                                
                                 
 
-                            </div>
+                        
                             
                             <table class="table text-center">
                                 <thead>
                                   <tr>
                                     <th>Càrrec</th>
-                                    <th>Data publicació</th>
+																		<th>Data publicació</th>
+																		<th>Data límit</th>
                                     <th>Categoria Treball</th>
                                     <th>Empresa</th>
                                     <th>Ubicació</th>
@@ -95,17 +136,19 @@
 
                                     <tr  class="table-active text-center">
                                         <td>Programador</td>
-                                        <td>1-4-2019</td>
+																				<td>1-4-2019</td>
+																				<td></td>
                                         <td>Programador Junior</td>
                                         <td>Indra</td>
                                         <td>València</td>
                                         <td>DAM</td>
-                                        <td><a href="#">Vore oferta </a></td>
+																				<td><a href=".\oferta_treball.html"><span class="mr-1 oi oi-eye"> </span>  </a>
+																					</td>
                                       </tr>
                                     </tbody>
                                   </table>
                                     
-                            
+																</div>  
                           
                         </div>
                     </div>
@@ -115,10 +158,17 @@
                 
 
 		</div>
+		<ul class="pagination justify-content-center" style="margin:20px 0">
+			<li class="page-item"><a class="page-link" href="#">Anterior</a></li>
+ 			<li class="page-item"><a class="page-link" href="#">1</a></li>
+  		<li class="page-item"><a class="page-link" href="#">2</a></li>
+  		<li class="page-item"><a class="page-link" href="#">3</a></li>
+ 			<li class="page-item"><a class="page-link" href="#">Següent</a></li>
+		</ul>
 		<div class="card-footer text-white mb-3 mt-2 text-center ">
 			<small  class="card-text  text-muted" >IES Jaume II El Just &copy; 2019 Tavernes de la Valldigna </small>
 		</div>
-	</div>	
+<!--	</div>	-->
 </body>
 
 </html>
