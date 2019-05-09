@@ -1,0 +1,36 @@
+
+.bg-peu {
+    background-color:#7734b8 !important;
+  }
+  .text-peu {
+    color:#fd9a01 !important;
+  }
+  .color-fondo{
+    background-color:rgba(0, 0, 0, 0.03) !important;
+   
+}
+
+
+
+.cabecera {
+       
+  background-image:url(../img/computer_smaller_2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  /*background-attachment: fixed;*/
+  background-size: cover;
+}
+
+
+.my_background{
+
+    background-color: rgba(0, 0, 0, 0.03) !important;
+ 
+	
+
+
+}
+
+
+
+
